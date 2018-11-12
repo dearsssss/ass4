@@ -32,3 +32,6 @@ void bstree_traversal(BStree bst) {
 void bstree_free(BStree bst) {
 
 }
+int main(){
+
+}
