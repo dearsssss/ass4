@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/tamaki/CLionProjects/ass4/data.c
+/Users/tamaki/CLionProjects/ass4/bst.c
 stdio.h
--
-string.h
 -
 stdlib.h
 -
+bst.h
+/Users/tamaki/CLionProjects/ass4/bst.h
+
+/Users/tamaki/CLionProjects/ass4/bst.h
 data.h
 /Users/tamaki/CLionProjects/ass4/data.h
 

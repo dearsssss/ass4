@@ -50,3 +50,7 @@ void print_key(Key *key) {
 void print_node(Node node) {
     printf("%s\t%d\t%c\n",node.key->name,node.key->id,node.data);
 }
+int main(){
+  Key *key=key_construct("ocn",1);
+  print_key(key);
+}

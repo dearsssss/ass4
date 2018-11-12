@@ -14,6 +14,15 @@
 // set all entries of is_free to 1
 // set member size to ’size’;
 BStree bstree_ini(int size) {
+    BStree bst = (BStree) malloc(sizeof(BStree_struct));
+    (*bst).tree_nodes = (Node *) malloc((size+1)*sizeof(int));
+    (*bst).is_free = (unsigned char *) malloc((size+1)*sizeof(char));
+    int i;
+    for(i=0;i<size+1;i++) {
+        (*bst).is_free[i] = '1';
+    }
+    (*bst).size = size;
+    return bst;
 
 }
 // Input: ’bst’: a binary search tree
@@ -22,6 +31,7 @@ BStree bstree_ini(int size) {
 // Effect: ’data’ with ’key’ is inserted into ’bst’
 // if ’key’ is already in ’bst’, do nothing
 void bstree_insert(BStree bst, Key *key, int data) {
+
 }
 // Input: ’bst’: a binary search tree
 // Effect: print all the nodes in bst using in order traversal
@@ -30,7 +40,9 @@ void bstree_traversal(BStree bst) {
 // Input: ’bst’: a binary search tree
 // Effect: all memory used by bst are freed
 void bstree_free(BStree bst) {
-
+    free((*bst).tree_nodes);
+    free((*bst).is_free);
+    free(bst);
 }
 int main(){
 
