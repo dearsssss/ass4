@@ -1,0 +1,3 @@
+/Users/tamaki/CLionProjects/ass4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tamaki/CLionProjects/ass4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tamaki/CLionProjects/ass4/cmake-build-debug/CMakeFiles/ass4.dir
