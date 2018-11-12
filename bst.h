@@ -12,4 +12,6 @@ BStree bstree_ini(int size);
 void bstree_insert(BStree bst, Key *key, int data);
 void bstree_traversal(BStree bst);
 void bstree_free(BStree bst);
+int getIndex(BStree bst,Key *key);
+int main();
 #endif //ASS4_BST_H
