@@ -15,6 +15,7 @@ Key *key_construct(char *in_name, int in_id) {
     Key *key = (Key *) malloc(sizeof(key_construct));
     key->name=strdup(in_name);
     key->id=in_id;
+    return key;
 }
 // Input: ’key1’ and ’key2’ are two Keys
 // Output: if return value < 0, then key1 < key2,

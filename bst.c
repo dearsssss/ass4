@@ -99,11 +99,12 @@ for(index=1;index<(*bst).size;index++){
 }
     return label;
 }
+
 int main() {
     BStree bst;
     bst = bstree_ini(1000);
     bstree_insert(bst, key_construct("Once", 1), 11);
-    print_node((*bst).tree_nodes[1]);
+    print_key((*bst).tree_nodes[1].key);
 //    bstree_insert(bst, key_construct("Upon", 22), 2);
 //    bstree_insert(bst, key_construct("a", 3), 33);
 //    bstree_insert(bst, key_construct("Time", 4), 44);
