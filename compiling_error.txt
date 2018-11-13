@@ -1,0 +1,11 @@
+Undefined symbols for architecture x86_64:
+  "_key_comp", referenced from:
+      _bstree_insert in bst-b71e7c.o
+      _getIndex in bst-b71e7c.o
+  "_key_construct", referenced from:
+      _main in bst-b71e7c.o
+  "_print_node", referenced from:
+      _bstree_traversal in bst-b71e7c.o
+      _main in bst-b71e7c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
